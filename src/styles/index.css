@@ -602,6 +602,15 @@ video {
   }
 }
 
+.form-input {
+  background-color: #f7fafc;
+  border-width: 2px;
+  border-color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;

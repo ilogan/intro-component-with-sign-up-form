@@ -23,22 +23,10 @@ function App() {
         <div className="mt-5 bg-gray-100 text-center p-6 rounded-lg shadow-md">
           <form className="">
             <div className="flex flex-col">
-              <input
-                className="bg-gray-100 border-2 border-gray-300 p-4 rounded-lg font-semibold"
-                placeholder="First Name"
-              />
-              <input
-                className="bg-gray-100 border-2 border-gray-300 p-4 rounded-lg font-semibold mt-4"
-                placeholder="Last Name"
-              />
-              <input
-                className="bg-gray-100 border-2 border-gray-300 p-4 rounded-lg font-semibold mt-4"
-                placeholder="Email Address"
-              />
-              <input
-                className="bg-gray-100 border-2 border-gray-300 p-4 rounded-lg font-semibold mt-4"
-                placeholder="Password"
-              />
+              <input className="form-input" placeholder="First Name" />
+              <input className="form-input mt-4" placeholder="Last Name" />
+              <input className="form-input mt-4" placeholder="Email Address" />
+              <input className="form-input mt-4" placeholder="Password" />
               <button className="bg-green-400 rounded-lg uppercase text-white font-semibold leading-relaxed px-4 py-4 mt-4">
                 Claim your free trial
               </button>
